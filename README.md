@@ -27,7 +27,7 @@ In case cabal-install is not installed run this command:
 ```bash
 brew install ghc cabal-install
 ```
-Now let's install ths Gloss library
+Now let's install the Gloss library
 ```bash
 cabal install gloss
 ```
