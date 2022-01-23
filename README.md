@@ -19,6 +19,20 @@ To install the required packages run the following commands:
 ```bash
 brew install ghc
 ```
+To check if you have cabal-install installed in you machine run the following command:
+```bash
+cabal --version
+```
+In case cabal-install is not installed run this command:
+```bash
+brew install ghc cabal-install
+```
+Now let's install ths Gloss library
+```bash
+cabal install gloss
+```
+
+And now you must be all seted up!
 
 
 ## Students envolved:
