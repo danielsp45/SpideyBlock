@@ -11,6 +11,14 @@ It is fully developed in Haskell and it consists of 6 tasks:
 - **Task 5** In this task the game graphics were created with the Gloss library
 - **Task 6** Last but not least, task 6. In this task a game Bot was created which was designed to solve game levels.
 
+## Download
+To be able to play the game, you'll need to firstly download tha Haskell Cabal-install and Gloss
+
+### Mac OS 
+To install the required packages run the following commands:
+```bash
+brew install ghc
+```
 
 
 ## Students envolved:
