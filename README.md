@@ -1,28 +1,19 @@
-# Laboratórios de Informática I
+# Spidey Block
 
-## Repositório
+## Laboratórios de Informática I
 
-O sistema de controlo de versões utilizado é o git. O repositório encontra-se disponível [nesta organização](https://gitlab.com/uminho-di/li1/2122). Para obter o repositório na sua máquina, garanta que tem a chave pública SSH adicionada na sua conta do GitLab com o email instituicional ([User Settings/SSH Keys](https://gitlab.com/-/profile/keys)), depois basta efetuar clone ao repositório.
+This project was developed during the first semester of the first year of the Computer Science and Engineering Degree.
+It is fully developed in Haskell and it consists of 6 tasks:
+- **Task 1** Task 1 is where in-game maps are checked to see if they are eligible to be played.
+- **Task 2** The maps in the game have two formats, in this task two functions were created to be able to transfer maps from one format to the other.
+- **Task 3** In this task the game gains its graphical structure in the terminal.
+- **Task 4** Task 4 is where the game mechanics and movements were created.
+- **Task 5** In this task the game graphics were created with the Gloss library
+- **Task 6** Last but not least, task 6. In this task a game Bot was created which was designed to solve game levels.
 
-```bash
-$ git clone git@gitlab.com:uminho-di/li1/2122/2021li1g040.git
-$ cd 2021li1g040 
-```
 
-## Testes
 
-O projecto contém testes unitários escritos usando a biblioteca [HUnit](https://hackage.haskell.org/package/HUnit). Os testes podem ser executados da seguinte forma.
-
-```bash
-$ ghci -i="src" -i="tests" tests/Tests.hs
->>> runTestsT1 -- Correr os testes tarefa 1
->>> runTestsT2 -- Correr os testes tarefa 2
->>> runTestsT3 -- Correr os testes tarefa 3
->>> runTestsT4 -- Correr os testes tarefa 4
->>> runAllTests -- Correr todos os testes
-```
-
-## Grupo 40
+## Students envolved:
 
 - **A100545** Daniel da Silva Pereira;
 - **A100534** Rodrigo Viana Ramos Casal Novo;
